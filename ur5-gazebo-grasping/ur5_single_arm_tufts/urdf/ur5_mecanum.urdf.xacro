@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+
+<robot xmlns:xacro="http://ros.org/wiki/xacro" name="manipulation" >
+
+  <xacro:include filename="$(find ur5_single_arm_tufts)/urdf/mecanum/sc_mecanum.urdf.xacro" />
+  <xacro:include filename="$(find ur5_single_arm_tufts)/urdf/ur5_single_arm.urdf.xacro" />
+
+
+</robot>
